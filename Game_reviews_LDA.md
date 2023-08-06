@@ -137,7 +137,7 @@ ggplot(coherence_df, aes(x = topic, y = coherence)) +
   labs(x = "Topic", y = "Coherence Score")  #coherence score für verschiedene Zahl an Topics plotten
 ```
 
-![](Rplot_coherence_42.png)<!-- -->
+![](Plots/Rplot_coherence_42.png)<!-- -->
 
 ## Model optimisation B: CaoJuan und Deveaud
 
@@ -161,7 +161,7 @@ result_tuningB = ldatuning::FindTopicsNumber(
 FindTopicsNumber_plot(result_tuningB)
 ```
 
-![](Rplot_tuning_42.png)<!-- -->
+![](Plots/Rplot_tuning_42.png)<!-- -->
 
 ## Result: Model with 8 Topics
 
